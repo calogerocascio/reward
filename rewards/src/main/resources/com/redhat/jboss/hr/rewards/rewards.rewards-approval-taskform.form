@@ -35,8 +35,9 @@
 <property name="outputBinding" value="employee/customerCode"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="employee_address" type="Subform" id="1637819027">
+<field position="6" name="employee_address" type="Subform" id="1637819027">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;address (employee)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -49,6 +50,20 @@
 <property name="outputBinding" value="employee/address"/>
 <property name="defaultSubform" value="Address.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="4" name="employee_customerType" type="InputText" id="1402272696">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerType (employee)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="employee/customerType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="employee_mSegment" type="InputText" id="688452050">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;mSegment (employee)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="employee/mSegment"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="employee" value="com.redhat.jboss.hr.rewards.Employee" id="employee"/>
 <dataHolder inputId="" name="#A7E690" type="basicType" outId="name" value="java.lang.String" id="name"/>
