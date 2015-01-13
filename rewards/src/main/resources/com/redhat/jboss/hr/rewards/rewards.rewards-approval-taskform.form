@@ -21,14 +21,35 @@
 <property name="outputBinding" value="employee/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="employee_dept" type="InputText" id="953146332">
+<field position="2" name="employee_acquistionDate" type="InputDate" id="716454530">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;dept (employee)quot;"/>
+<property name="label" value="quot;enquot;,quot;acquistionDate (employee)quot;"/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="employee/dept"/>
+<property name="outputBinding" value="employee/acquistionDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="employee_customerCode" type="InputText" id="1076492831">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerCode (employee)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="employee/customerCode"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="employee_award" type="Subform" id="1319967907">
+<field position="4" name="employee_customerType" type="InputText" id="798617386">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerType (employee)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="employee/customerType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="employee_mSegment" type="InputText" id="1846108896">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;mSegment (employee)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="employee/mSegment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="employee_award" type="Subform" id="1319967907">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
@@ -43,34 +64,6 @@
 <property name="outputBinding" value="employee/award"/>
 <property name="defaultSubform" value="Award.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
-</field>
-<field position="3" name="employee_acquistionDate" type="InputDate" id="716454530">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;acquistionDate (employee)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="employee/acquistionDate"/>
-<property name="fieldClass" value="java.util.Date"/>
-</field>
-<field position="4" name="employee_customerCode" type="InputText" id="1076492831">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;customerCode (employee)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="employee/customerCode"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="employee_customerType" type="InputText" id="798617386">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;customerType (employee)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="employee/customerType"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="employee_mSegment" type="InputText" id="1846108896">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;mSegment (employee)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="employee/mSegment"/>
-<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="employee" value="com.redhat.jboss.hr.rewards.Employee" id="employee"/>
 <dataHolder inputId="" name="#A7E690" type="basicType" outId="name" value="java.lang.String" id="name"/>
