@@ -21,22 +21,6 @@
 <property name="outputBinding" value="employee/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="employee_award" type="Subform" id="1319967907">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="labelCSSClass" value=""/>
-<property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;award (employee)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="styleclass" value=""/>
-<property name="cssStyle" value=""/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="employee/award"/>
-<property name="defaultSubform" value="Award.form"/>
-<property name="fieldClass" value="java.lang.Object"/>
-</field>
 <field position="2" name="employee_acquistionDate" type="InputDate" id="716454530">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;acquistionDate (employee)quot;"/>
@@ -50,6 +34,21 @@
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="employee/customerCode"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="employee_address" type="Subform" id="1637819027">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;address (employee)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="employee/address"/>
+<property name="defaultSubform" value="Address.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
 </field>
 <dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="employee" value="com.redhat.jboss.hr.rewards.Employee" id="employee"/>
 <dataHolder inputId="" name="#A7E690" type="basicType" outId="name" value="java.lang.String" id="name"/>
