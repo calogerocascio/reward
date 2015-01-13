@@ -4,12 +4,36 @@
 <property name="name" value="rewards.rewards-approval-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1375506151">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt; quot;quot;dequot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt; quot;quot;enquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt; quot;quot;esquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt; quot;quot;frquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt; quot;quot;jaquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt; quot;quot;ptquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt; quot;quot;zhquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="employee_name" type="InputText" id="162200519">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (employee)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="employee/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="employee_dept" type="InputText" id="953146332">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dept (employee)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="employee/dept"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <field position="3" name="employee_award" type="Subform" id="1319967907">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;award (employee)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;award (employee)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -20,37 +44,12 @@
 <property name="defaultSubform" value="Award.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
-<field position="2" name="employee_dept" type="InputText" id="953146332">
+<field position="4" name="employee_acquistionDate" type="InputDate" id="716454530">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;dept (employee)quot;"/>
+<property name="label" value="quot;enquot;,quot;acquistionDate (employee)quot;"/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="employee/dept"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="employee_name" type="InputText" id="162200519">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (employee)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="employee/name"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name=":decorator_0" type="HTMLLabel" id="1375506151">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value=""/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value=""/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt;
-quot;quot;dequot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt;
-quot;quot;enquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt;
-quot;quot;esquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt;
-quot;quot;frquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt;
-quot;quot;jaquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt;
-quot;quot;ptquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt;
-quot;quot;zhquot;,quot;&lt;h2&gt;&lt;code&gt;Submit Employee Reward:&lt;/code&gt;&lt;/h2&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
+<property name="outputBinding" value="employee/acquistionDate"/>
+<property name="fieldClass" value="java.util.Date"/>
 </field>
 <dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="employee" value="com.redhat.jboss.hr.rewards.Employee" id="employee"/>
 <dataHolder inputId="" name="#A7E690" type="basicType" outId="name" value="java.lang.String" id="name"/>
