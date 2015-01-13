@@ -4,4 +4,33 @@
 <property name="name" value="Address.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="Address_address" type="InputText" id="1554156452">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;address (Address)quot;"/>
+<property name="inputBinding" value="Address_in/address"/>
+<property name="outputBinding" value="Address/address"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="Address_city" type="InputText" id="1412363131">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;city (Address)quot;"/>
+<property name="inputBinding" value="Address_in/city"/>
+<property name="outputBinding" value="Address/city"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="Address_country" type="InputText" id="573682645">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;country (Address)quot;"/>
+<property name="inputBinding" value="Address_in/country"/>
+<property name="outputBinding" value="Address/country"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="Address_zip" type="InputText" id="1378407431">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;zip (Address)quot;"/>
+<property name="inputBinding" value="Address_in/zip"/>
+<property name="outputBinding" value="Address/zip"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="Address_in" name="#0000A0" type="dataModelerEntry" outId="Address" value="com.redhat.jboss.hr.rewards.Address" id="Address"/>
 </form>
