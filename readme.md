@@ -1,4 +1,4 @@
-JBoss BPM Suite Rewards Demo
+JBoss BPM Suite Customer Approval POC
 ============================
 
 Install the application into JBoss BPM Suite
