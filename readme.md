@@ -14,7 +14,7 @@ Before starting the installation add the loanOfficer role to the user which is u
 4. Fill the Clone Repository form:
   - Repository Name - the name of the repository (created inside JBoss BPM Suite)
   - Organizational Unit - select a value from list
-  - Git URL - https://github.com/eschabell/bpmsuite-rewards-repo.git 
+  - Git URL - https://github.com/calogerocascio/reward.git 
   - Leave User Name and Password fields empty
 
 Run the application
